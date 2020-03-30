@@ -10,7 +10,7 @@ const char* pass = "PASSWORD"; //Substitute PASSWORD with your Wifi Password
 
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = 0; //Offset from GMT in seconds
-const int   daylightOffset_sec = 3600; //Daylight Saving Time Offset
+const int   daylightOffset_sec = 3600; //Daylight Saving Time offset in seconds
 
 LiquidCrystal lcd(14, 27, 26, 25, 33, 32); //LCD Pins
 
